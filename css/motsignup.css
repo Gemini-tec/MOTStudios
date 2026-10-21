@@ -4,12 +4,13 @@ body{
 }
 .container{
     display: flex;
-    width: 50%;
+    width: 90%;
+    max-width: 900px;
     margin: auto;
-    padding: 20px;
-    margin-top: 40px;
-    background-color: rgb(238, 236, 236);
-    box-shadow: 500px;
+    padding: 0;
+    margin-top: 60px;
+    background-color: transparent;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, .15);
 }
 .lpanel{
     
@@ -38,22 +39,27 @@ input{
     border: none;
     border-radius: 5px;
     width: 100%;
-    height: 30px;
-    
+    height: 42px;
+    padding: 0 15px;
+    box-sizing: border-box;
 
 }
-#btn1{
+.btn1{
     /* background-color: #0a4dc9; */
     background-color: rgb(190, 57, 17);
     border-radius: 15px;
     border: none;
     padding: 18px;
     color: white;
+    display: inline-block;
+    text-decoration: none;
+    
 }
 #btn2{
     background-color: #1863ed;
     width: 100%;
-    height: 40px;
+    box-sizing: border-box;
+    height: 43px;
     border-radius: 5px;
     border: none;
     
