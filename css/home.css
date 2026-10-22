@@ -1,0 +1,31 @@
+.navbar{
+    background-color: #080808;
+    padding: 15px 0;
+}
+
+.navbar-brand{
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: bold
+}
+.nav-link{
+    color: #ffffff;
+    margin-left: 24px;
+}
+.nav-link:hover{
+    color: #d4af37;
+}
+
+.book-btn{
+    background-color: #d4af37;
+    color: #080808;
+    padding: 10px 20px;
+    margin-left: 25px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.book-btn:hover{
+    background-color: #ffffff;
+    color: #080808;
+}
